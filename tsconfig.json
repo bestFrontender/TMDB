@@ -1,0 +1,14 @@
+{
+  "baseUrl": "src",
+  "paths": {
+    "modules/*": ["modules/*"]
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/services/i18n/i18next.d.ts"]
+  }
+}

@@ -1,0 +1,55 @@
+.wrapper {
+  color: #fff;
+  height: 456px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.title {
+  color: #fff;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  z-index: 10;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  &-no-image {
+    object-fit: contain;
+    background-color: #fff;
+  }
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1dd20fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  &--variant {
+    &-red {
+      background-color: #f11;
+    }
+    &-gray {
+      background-color: #777;
+    }
+    &-green {
+      background-color: #3bb33b;
+    }
+    &-gold {
+      background-color: #eacc7f;
+    }
+  }
+}

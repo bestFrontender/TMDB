@@ -1,0 +1,10 @@
+{
+  "required": "Bu maydon majburiy",
+  "min": "Minimal {{min}} ta belgi bo'lishi kerak",
+  "max": "Maksimal {{max}} ta belgi bo'lishi mumkin",
+  "oneOf": "Noto'g'ri qiymat kiritildi",
+  "numberMin": "{{min}} dan katta son kiriting",
+  "numberMax": "{{max}} dan kichik son kiriting",
+  "arrayMin": "Kamida {{min}} ta element tanlang",
+  "arrayMax": "Ko'pi bilan {{max}} ta element tanlash mumkin"
+}

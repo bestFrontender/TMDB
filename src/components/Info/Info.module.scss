@@ -1,0 +1,21 @@
+.wrapper {
+  margin-bottom: 30px;
+}
+.label {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

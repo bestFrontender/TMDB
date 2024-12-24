@@ -1,0 +1,14 @@
+.wrapper {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    padding: 15px;
+  }
+}

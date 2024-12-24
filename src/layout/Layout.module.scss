@@ -1,0 +1,22 @@
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+}
+.header {
+  margin-top: 113px;
+}
+
+.content {
+  width: 1280px;
+  max-width: 100%;
+  margin: auto;
+  min-height: calc(100vh - 184px);
+
+  @media (max-width: 992px) {
+    padding: 15px;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+}
